@@ -1,0 +1,61 @@
+.parent_form{
+    /* background-color: black; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.basic_detials_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.base_text_field{
+    display: flex !important;
+    gap: 80px;
+}
+
+.base_date_pick{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.emply_text_from{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 8px;
+    
+}
+
+.emply_from{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px 40px 20px 40px;
+}
+
+h4 {
+    text-align: left !important;
+}
+
+h1 {
+    text-align:center;
+}
+
+.emp_title{
+    cursor: pointer;
+}
+
+.loader{
+    margin: 50%;
+}
